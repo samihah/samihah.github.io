@@ -1,0 +1,415 @@
+/*sheeiiitttt..look at this bawce-ass style sheet*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #444444;
+	background-color: #F0F0F0;
+}
+
+/*.container .col-md-3 {
+	width: auto;
+}
+*/
+
+/* bootstrap overrides */
+.container {
+	width: 986px;
+}
+
+.row {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+/* end bootstrap override */
+
+a {
+	color: #21a8b4;
+	text-decoration: none;
+}
+a:hover {
+	color:#21A8B4;
+	font-style: oblique;
+}
+
+a:visited {
+	color: #21A8B4;
+	text-decoration: none;
+}
+
+a:active {
+	color: #21A8B4;
+	text-decoration: none;
+}
+
+strong {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 22px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+h4 {
+	color: #444;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 0;
+}
+
+/*navigation styling*/
+
+.navi {
+	padding-top: 20px;
+}
+
+.samihah {
+	font-size: 36px;
+	color: #21A8B4;
+	font-weight: 600;
+}
+
+.navi-border {
+	border-left: 1px solid #444444;
+	margin-top: 4px;
+	font-weight: 600;
+}
+
+.navi-border a {
+	color: #444444;
+}
+
+.navi-border a:hover {
+	color: #21A8B4;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.active-navi a{
+	color:#21A8B4;
+	cursor: default;
+}
+
+.navi-border div:first-child {
+	padding-bottom: 17px;
+}
+
+/*end navigation styling*/
+
+.subhead {
+	font-size: 18px;
+	color: #21A8B4;
+	margin: 20px 0px;
+}
+
+
+/*START OF STYLING FOR FEATURED WORK (INDEX) PAGE*/
+
+.featured-work {
+	margin-top: 15px;
+	margin-bottom: 100px;
+}
+
+.featured-work a:hover {
+	text-decoration: none;
+	font-style: normal;
+}
+
+.featured-work div {
+	position: relative;
+}
+
+/*this sets the overlay styling*/
+.featured-work span {
+	position: absolute;
+	margin: 1px;
+	background-color: rgba(251, 251, 251, .9);
+	padding: 7px 5px;
+	font-size: 15px;
+	width: 298px;
+	color: #444;
+}
+
+/*styling for images for featured work*/
+.featured-work img {
+	border: 1px solid #21A8B4;
+	border-radius: 2px;
+	width: 300px;
+	height: 390px;
+}
+
+.featured-work a:hover img {
+	box-shadow: 0 0 5px #21A8B4;
+}
+
+/*styling for featured work description*/
+span.featured-work-desc {
+	bottom: 0px;
+	left: 10px;
+	font-size: 12px;
+}
+
+/*THIS IS THE START OF STYLING FOR /WORK PAGE */
+
+/*styling for images */
+.work-item img {
+	border: 1px solid #21A8B4;
+	border-radius: 2px;
+	width: 220px;
+	height: 310px;
+	margin: 5px 0px;
+}
+
+.work-desc {
+	color: #444;
+}
+
+.work-item a:hover img {
+	box-shadow: 0 0 5px #21A8B4;
+}
+
+.work-item a:hover {
+	text-decoration: none;
+	font-style: normal;
+}
+
+.last {
+	margin-bottom: 30px;
+}
+
+/*overlay styling*/
+.work-item .work-desc {
+	position: absolute;
+	margin: 1px;
+	background-color: rgba(251, 251, 251, .9);
+	padding: 5px;
+	font-size: 12px;
+	width: 218px;
+	left: 10px;
+	bottom: 5px;
+	font-size: 12px;
+}
+
+/*STYLING FOR FEATURED WORK*/
+
+a #gb#bna#6wla {
+	text-decoration: none;
+}
+
+.mycarousel {
+	display: none;
+	background-color: #222;
+}
+
+.carouseltitle {
+	color: #21A8B4;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.carousel-indicators .active {
+	background-color: #21A8B4;
+	border: 1px solid #21A8B4;
+}
+
+.carousel-indicators li {
+	border: 2px solid #21A8B4;
+}
+
+.mycarousel h3{
+	text-align: center;
+	padding: 20px;
+	font-weight: 600;
+}
+
+.mycarousel .carousel-indicators {
+	position: inherit;
+	left: 0;
+	bottom: 0;
+	width: auto;
+	margin-left: inherit;
+}
+
+.mycarousel .glyphicon-remove {
+	padding-top: 10px;
+	color: #FBFBFB;
+}
+
+.blurb-title {
+	color: #21A8B4;
+	font-weight: 600;
+}
+
+.blurb {
+	color: #FBFBFB;
+}
+
+.sniptitle {
+	color: #21A8B4;
+	font-weight: 600;
+}
+
+.sniptext {
+	color: #FBFBFB
+}
+
+.carousel-control {
+	width: 7%
+}
+
+.carousel-control.closebtn {
+	z-index: 1;
+	cursor: pointer;
+	height: 30px;
+}
+
+.featuredworksnip .snippet {
+	float: right;
+	padding-bottom: 20px;
+	width: 321px;
+	padding-left: 10px;
+}
+
+.featuredworksnip img {
+	float: right;
+	padding-top: 4px;
+	margin-bottom: 10px;
+}
+
+.featuredworksnip {
+	clear: both;
+}
+
+/*START OF STYLING FOR ALL THINGS ABOUT AND HIGHLIGHTS*/
+
+.subhead-alt {
+	font-size: 18px;
+	color: #21A8B4;
+	margin: 15px 0px 0px 0px;
+}
+
+.highlights {
+	margin: 0px 0px 3px 0px;
+}
+
+.highlights ul {
+	list-style-type: none;
+	margin: -5px;
+	padding: 0;
+}
+
+.highlights-smallfont {
+	color: #969696;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.speaking-padding {
+	margin: 5px 20px 30px 20px;
+}
+
+.item-padding {
+	margin: 5px 20px 25px 20px;
+}
+
+/*START OF STYLING FOR CONTACT [HOLLA.HTML] PAGE*/
+
+.sayhi {
+	color: #21A8B4;
+	font-size: 15px;
+	margin: 10px 0px;
+}
+
+.elsewhere {
+	font-size: 14
+	font-weight: 300;
+	color: #969696;
+}
+
+.fa {
+	color: #21A8B4;
+}
+
+input, textarea {
+	width: 100%;
+	font-weight: 600;
+	color: #969696;
+	background-color: #f7f6f6;
+	border: 1px solid #969696;
+	padding: 7px;
+	margin: 10px 0px;
+}
+
+input:focus, textarea:focus {
+    outline: 0;
+	box-shadow: 0 0 5px #21A8B4;
+	border: 1px solid #21A8B4;
+	background-color: #FDFEFE;
+}
+
+textarea {
+	height: 200px;
+	resize: none;
+}
+
+
+#submit {
+	border: 2px solid #21A8B4;
+	color: #21A8B4;
+	background-color: #FDFEFE;
+	border-radius: 2px;
+    transition: border 0.5s, color 0.5s, background-color 0.5s;
+    margin-top: -5px;
+	margin-bottom: 20px;
+}
+
+#submit:hover {
+	border: 2px solid #21A8B4;
+	color: #FDFEFE;
+	background-color: #21A8B4;
+}
+
+/*START OF STYLING FOR ALL THE STUFF AT THE BOTTOM*/
+
+/*this is where the quotes and endorsements styling goes*/
+.subfoot {
+	background-color: #2D3132;
+	text-align: center;
+	color: #969696;
+	padding: 75px;
+}
+
+blockquote {
+	border-left: none;
+	padding-left: 0;
+	text-align: left;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.author {
+	text-align: right;
+	font-weight: 600;
+}
+
+footer {
+	text-align: center;
+	padding: 5px;
+
+}
+
+.fa-heart {
+	color: #21A8B4;
+}
+
+
+
+
+
+
