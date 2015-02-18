@@ -222,6 +222,10 @@ a #gb#bna#6wla {
 	border: 2px solid #21A8B4;
 }
 
+.carousel .item img {
+	margin: auto;
+}
+
 .mycarousel h3{
 	text-align: center;
 	padding: 20px;

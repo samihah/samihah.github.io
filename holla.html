@@ -10,6 +10,8 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
+	<script src="jquery.min.js"></script>
+
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="bootstrap.min.js"></script>
 
@@ -21,6 +23,22 @@
 
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+	<script type="text/javascript">
+// $(document).ready(function() {
+// 	var form = $('#contact_form');
+
+// 	form.submit(function(ev) {
+// 		ev.preventDefault();
+
+// 		function onSuccess() {
+// 			$('#submit').disable();
+// 			$('#submit').text('Thanks!');
+// 		}
+
+// 		$.post(form.attr('action'), form.serialize(), onSuccess);
+// 	});
+// });
+	</script>
 </head>
 
 
@@ -66,34 +84,37 @@
 				<p><a href="http://www.dribbble.com/samihah" target="_blank" class="elsewhere"><i class="fa fa-dribbble"></i> samihah</a></p>
 			</div>
 		</div>
+		<form id="contact_form" action="https://docs.google.com/forms/d/1UKn1mgH-kyzgUxCimKcJx-rd96syLiPqIdSI0lG6jNo/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
 		<div class="row">
 			<!-- name -->
 			<div class="col-md-4">
-				<input name="name" placeholder="Your Name (required)">
+				<input name="entry.1063876195" placeholder="Your Name (required)">
 			</div>
 			<!-- email -->
 			<div class="col-md-4">
-				<input name="email" type="email" placeholder="Your Email (required)">
+				<input name="entry.1595847566" type="email" placeholder="Your Email (required)">
 			</div>
 		</div>
 		<div class="row">
 			<!-- subject -->
 			<div class="col-md-8">
-				<input name="subject" placeholder="Subject (required)">
+				<input name="entry.1171206793" placeholder="Subject (required)">
 			</div>
 		</div>
 		<div class="row">
 			<!-- message -->
 			<div class="col-md-8">
-				<textarea name="message" placeholder="Type your message (required)"></textarea>
+				<textarea name="entry.420808705" placeholder="Type your message (required)"></textarea>
 			</div>
 		</div>
 		<div class="row">
 			<!-- submit button -->
 			<div class="col-md-2 col-md-offset-6">
+				<input type="hidden" name="fbzx" value="7392615216230596996">
 				<input id="submit" name="submit" type="submit" value="Say hello">
 			</div>
 		</div>
+		</form>
 	</div>
 
 	<div class="row subfoot">
