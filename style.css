@@ -355,6 +355,7 @@ input:focus, textarea:focus {
 	box-shadow: 0 0 5px #21A8B4;
 	border: 1px solid #21A8B4;
 	background-color: #FDFEFE;
+	color: #444444;
 }
 
 textarea {
