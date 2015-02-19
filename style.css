@@ -248,10 +248,12 @@ a #gb#bna#6wla {
 .blurb-title {
 	color: #21A8B4;
 	font-weight: 600;
+	padding-bottom: 20px;
 }
 
 .blurb {
 	color: #FBFBFB;
+	padding: 10px auto;
 }
 
 .sniptitle {
