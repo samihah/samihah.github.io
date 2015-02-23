@@ -1,7 +1,7 @@
 /*sheeiiitttt..look at this bawce-ass style sheet*/
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #444444;
 	background-color: #F0F0F0;
 }
@@ -47,7 +47,7 @@ a:active {
 }
 
 strong {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 h1 {
@@ -58,7 +58,7 @@ h1 {
 
 h4 {
 	color: #444;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 14px;
 	margin-top: 0;
 }
@@ -72,13 +72,13 @@ h4 {
 .samihah {
 	font-size: 36px;
 	color: #21A8B4;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .navi-border {
 	border-left: 1px solid #444444;
 	margin-top: 4px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .navi-border a {
@@ -166,6 +166,10 @@ span.featured-work-desc {
 	margin: 5px 0px;
 }
 
+li {
+	margin: 5px 0px;
+}
+
 .work-desc {
 	color: #444;
 }
@@ -210,7 +214,7 @@ a #gb#bna#6wla {
 .carouseltitle {
 	color: #21A8B4;
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .carousel-indicators .active {
@@ -229,7 +233,7 @@ a #gb#bna#6wla {
 .mycarousel h3{
 	text-align: center;
 	padding: 20px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .mycarousel .carousel-indicators {
@@ -247,7 +251,7 @@ a #gb#bna#6wla {
 
 .blurb-title {
 	color: #21A8B4;
-	font-weight: 600;
+	font-weight: 700;
 	padding-bottom: 20px;
 }
 
@@ -258,7 +262,7 @@ a #gb#bna#6wla {
 
 .sniptitle {
 	color: #21A8B4;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .sniptext {
@@ -312,7 +316,7 @@ a #gb#bna#6wla {
 
 .highlights-smallfont {
 	color: #969696;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 12px;
 }
 
@@ -344,7 +348,7 @@ a #gb#bna#6wla {
 
 input, textarea {
 	width: 100%;
-	font-weight: 600;
+	font-weight: 700;
 	color: #969696;
 	background-color: #f7f6f6;
 	border: 1px solid #969696;
@@ -402,7 +406,7 @@ blockquote {
 
 .author {
 	text-align: right;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 footer {
