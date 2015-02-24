@@ -208,7 +208,7 @@ a #gb#bna#6wla {
 
 .mycarousel {
 	display: none;
-	background-color: #222;
+	background-color: #DFDFDF;
 }
 
 .carouseltitle {
@@ -246,7 +246,7 @@ a #gb#bna#6wla {
 
 .mycarousel .glyphicon-remove {
 	padding-top: 10px;
-	color: #FBFBFB;
+	color: #21A8B4;
 }
 
 .blurb-title {
@@ -256,7 +256,7 @@ a #gb#bna#6wla {
 }
 
 .blurb {
-	color: #FBFBFB;
+	color: #444;
 	padding: 10px auto;
 }
 
@@ -266,17 +266,28 @@ a #gb#bna#6wla {
 }
 
 .sniptext {
-	color: #FBFBFB
+	color: #444
 }
 
 .carousel-control {
 	width: 7%
 }
 
+.carousel-control.right {
+	background-image: none;
+	color: #21A8B4;
+}
+
+.carousel-control.left {
+	background-image: none;
+	color: #21A8B4;
+}
+
 .carousel-control.closebtn {
 	z-index: 1;
 	cursor: pointer;
 	height: 30px;
+	background-color: #DFDFDF;
 }
 
 .featuredworksnip .snippet {
