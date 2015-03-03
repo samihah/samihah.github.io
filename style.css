@@ -67,7 +67,7 @@ h4 {
 /*navigation styling*/
 
 .navi {
-	padding: 20px 20px;
+	padding: 20px 20px 20px 70px;
 	background: #ffffff;
 }
 
@@ -106,7 +106,7 @@ h4 {
 
 .subhead {
 	font-size: 18px;
-	color: #8E989A;
+	color: #444;
 	margin: 20px 0px;
 }
 
@@ -435,7 +435,8 @@ blockquote {
 footer {
 	text-align: center;
 	padding: 5px;
-	height:auto;
+	height: 25px;
+	bottom: 0;
 
 }
 
