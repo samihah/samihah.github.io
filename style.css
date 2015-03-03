@@ -1,7 +1,7 @@
 /*sheeiiitttt..look at this bawce-ass style sheet*/
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #444444;
 	background-color: #F8FBFC;
 }
@@ -139,14 +139,14 @@ h4 {
 
 /*styling for images for featured work*/
 .featured-work img {
-	border: 1px solid #21A8B4;
+	border: 1px solid #b4bec1;
 	border-radius: 2px;
 	width: 300px;
 	height: 390px;
 }
 
 .featured-work a:hover img {
-	box-shadow: 0 0 5px #21A8B4;
+	box-shadow: 0 0 5px #b4bec1;
 }
 
 /*styling for featured work description*/
