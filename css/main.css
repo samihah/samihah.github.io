@@ -336,8 +336,7 @@ textarea {
 	border-radius: 2px;
     transition: border 0.5s, color 0.5s, background-color 0.5s;
     margin-top: -10px;
-	margin-bottom: 20px;
-	padding-bottom: 38px;
+	padding: 7px 0px 40px 0px;
 	font-size: 18px;
 	text-align: center;
 	width: 100%;
