@@ -151,7 +151,7 @@ nav .pronounce {
     font-weight: 400;
     line-height: 30px;
 	letter-spacing: 1px;
-	word-spacing: .4em;
+/*	word-spacing: .4em;*/
 }
 
 
@@ -199,7 +199,7 @@ nav .pronounce {
 	font-size: 15px;
 	line-height: 40px;
 	letter-spacing: 2px;
-	word-spacing: .4em;
+/*	word-spacing: .4em;*/
 	pading-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -217,7 +217,7 @@ p.project-blurb {
 	font-weight: 300;
 	line-height: 30px;
 	letter-spacing: 2px;
-	word-spacing: .4em;
+/*	word-spacing: .4em;*/
 	font-family: 'Open Sans', sans-serif;
 
 }
@@ -302,7 +302,6 @@ p.speaking-title {
 	word-spacing: .4em;
 	line-height: 30px;
 	letter-spacing: 2px;
-	word-spacing: .4em;
 	font-family: 'Open Sans', sans-serif;
 }
 
