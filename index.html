@@ -1,380 +1,179 @@
 <!DOCTYPE html>
-
-<html>
-
-<!-- YO DAWG, I HEARD YOU LIKE DIVS. SO I PUT SOME DIVS INSIDE YOUR DIVS INSIDE YOUR DIVS. #DivsOnDivsOnDivs -->
-
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-	<title>Samihah | UI/UX Product Designer | San Francisco</title>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Samihah | Product Designer | San Francisco</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="me (aka Samihah)" content="">
 
-	<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- some jQuery -->
-	<script src="jquery.min.js"></script>
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
 
-	<!-- some javascript -->
-	<script src="index.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-		<!--styleezzzz-->
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
 
-	<!-- these are the amazing fonts I'm using -->
-<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-
-
 <body>
+<header>
 
-		<!-- navigation starts HERE -->
-		<div class="row navi">
-			<div class="col-md-4 navi-name">
-				<div>NAME</div>
-				<div>
-					<span class="samihah">Samihah</span>
-					<span>   (‘sɑ: mi: hɑ:)</span>
-				</div>
-			</div>
-			<div class="col-md-1 col-md-offset-5 navi-border">
-				<div class="active-navi"><a href="index.html">HOME</a></div>
-				<div><a href="work.html">WORK</a></div>
-			</div>
-			<div class="col-md-1 navi-border">
-				<div><a href="http://samihahazim.wordpress.com" target="_blank">BLOG</a></div>
-				<div><a href="http://8bitsam.tumblr.com" target="_blank">FUN</a></div>
-			</div>
-			<div class="col-md-1 navi-border">
-				<div><a href="about.html">ABOUT</a></div>
-				<div><a href="holla.html">SAY HI</a></div>
-			</div>
-		</div>
-	<div class="container">
-		<div id="featuredwork">
-			<h1><strong>Based in the gorgeous San Francisco Bay Area, I'm a UI and UX focused Product Designer. I design experiences &amp; systems to help humans interact with the digital world.</strong></h1>
+  <nav class="row">
+    <div class="logo">
+      <span class="samihah"><a href="index.html">Samihah</a></span>
+      <span class="pronounce">(‘sɑ: mi: hɑ:)</span>
+    </div>
+    <div class="navmenu">
+      <ul class="menu">
+        <li class="active menu-item">
+            PORTFOLIO
+        </li>
+        <li class="menu-item">
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li class="menu-item">
+          <a href="http://samihahazim.wordpress.com" target="_blank">BLOG</a>
+        </li>
+        <li class="menu-item">
+          <a href="holla.html">SAY HI</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-			<!-- featured work starts here -->
-			<div class="subhead"><strong>Case Studies:</strong></div>
+</header>
 
-			<div class="row featured-work">
-			<!-- Bluenose enterprise design case study goes here -->
-				<div class="col-md-4">
-					<a href="#" id="bna"><span><strong>Bluenose Analytics:</strong> Web Enterprise</span>
-						<img src="images/home/bnaPlaybooks.png" alt="Bluenose | Playbooks">
-						<span class="featured-work-desc"><strong>Playbooks | Challenge:</strong> Quick access to the most important information about end users, while still allowing deeper analysis of end user interactions without saturating content with an overwhelming amount of data.</span></a>
-				</div>
-				<!-- Gleebox consumer mobile case study goes here -->
-				<div class="col-md-4">
-					<a href="#" id="gb"><span><strong>Gleebox:</strong> Mobile Consumer</span>
-						<img src="images/home/gleeboxMobile.png" alt="Gleebox | iOS">
-						<span class="featured-work-desc"><strong>iOS App | Challenge:</strong> Connecting people to small businesses selling local goods in their community and around the world - giving people the ability to fulfill the need to discover and own unique goods and share their discoveries with friends.</span></a>
-				</div>
-				<!-- 6waves Lolapps social gaming case study goes here -->
-				<div class="col-md-4">
-					<a href="#" id="6wla"><span><strong>6waves Lolapps:</strong> Social Game</span>
-						<img src="images/home/lolappsGaming.png" alt="Lolapps | Ravenshire Castle">
-						<span class="featured-work-desc"><strong>Ravenshire Castle | Challenge:</strong> Interweaving micro and macro level UX and using the UI and visual design to reinforce the user experience. Using design to increase key product metrics of retention, user acquisition, and monetization.</span></a>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="content">
 
-	<!-- START OF BNA CAROUSEL -->
-	<div id="carousel-bna" class="carousel mycarousel slide" data-ride="carousel">
-	 <div class="carouseltitle"><h3>BLUENOSE ANALYTICS | PLAYBOOKS</h3></div>
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-		<li data-target="#carousel-bna" data-slide-to="0" class="active"></li>
-		<li data-target="#carousel-bna" data-slide-to="1"></li>
-		<li data-target="#carousel-bna" data-slide-to="2"></li>
-	  </ol>
+  <div class="portfolio_row">
+    <div class="portfolio_item">
+    <img src="images/bnaHome.png" />
+      <div class="details">
+        <div>
+          <p class="project-client">Bluenose Analytics</p>
+          <p class="project-platform">Enterprise Web</p>
+          <p class="project-methods">User Research (ethnographic studies, card sort, user interviews, usability studies, participatory design), Product Definition, Sketch (Bohemian Coding), UX Design (wireframing, storyboarding), UI Design (lo-fi mocks & hi-fi mocks), Iteration</p>
+        </div>
+        <a href="bna.html"></a>
+      </div>
+    </div>
 
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner">
-		<div class="item active container">
-			<div class="row">
-				<div class=" col-md-12">
-					<div class="entireblurb">
-						<span class="blurb-title">BACKGROUND &amp; CHALLENGE</span>
-						<p class="blurb">We have two personas, both with unique needs: individual contributers, and VP/Manager level users. The former needed a way to track their daily workflow, and the latter needed a way to track team velocity and metrics. To solve for both needs, I designed a lightweight project management feature. This feature also improved our daily active use by creating compelling repeat experiences.</p>
-					</div>
-					<div class="entireblurb">
-						<span class="blurb-title">MY ROLE</span>
-						<p class="blurb">As Product Design Manager I was responsible for all aspects of design. My responsibilities began with the research phase and continued well past delivering high fidelity mocks to engineering. As a designer, it was my job to continue improving and iterating on Playbooks to ensure our users were delighted and empowered to be successful. A few of my key responsibilities are as follows:
-							<ul class="blurb">
-								<li>On Playbooks, I designed the UI and worked with Engineering on execution.</li>
-								<li>I conducted user research which informed the product roadmap and feature prioritization.</li>
-								<li>I defined the design language and designed the user experience, crafted the Playbooks UI, and iterated based on user learnings and behavior.</li>
-							</ul>
-						</p>
-					</div>
-					<div class="entireblurb">
-						<span class="blurb-title">LEARNINGS &amp; OUTCOME</span>
-						<p class="blurb">After we had active users using the product, I started to track how they were using the product with a combination of data and qualitative research. This allowed me to focus on user goals, but artfully balance product goals. Our sales and customer base increased significantly, once this feature went live since it solved a huge pain point for our users. We learned to refine our product development process so Design would be ahead of Engineering, and product development would be more collaborative between all stakeholders.</p>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="portfolio_item">
+    <img src="images/gleeboxHome.png" />
+      <div class="details">
+        <div>
+          <p class="project-client">Gleebox</p>
+          <p class="project-platform">Mobile App</p>
+          <p class="project-methods">User Research (user journey maps, user interviews, usability studies), Product Definition, Sketch (Bohemian Coding), Photoshop, Illustrator, UX Design (wireframing, storyboarding), UI Design (lo-fi & hi-fi mocks), Prototyping, Iteration</p>
+        </div>
+        <a href="gleebox.html"></a>
+      </div>
+    </div>
+  </div>
 
-		<div class="item">
-		  <div class="col-md-12">
-					<div class="featuredworksnip">
-						<div class="snippet">
-							<span class="sniptitle">Research</span>
-							<ul class="sniptext">
-							<li>Need finding research: conducted via user interviews</li>
-							<li>Ethnographic studies: used to understand frequency and use of Playbooks, and find possible missing functionality</li>
-							<li>Affinity Diagrams: organized information and created hierarchy</li>
-							</ul>
-						</div>
-						<img src="images/home/bna/research.png" alt="research">
-					</div>
-					<div class="featuredworksnip">
-						<div class="snippet">
-							<span class="sniptitle">Wireframes &amp; Sketches</span>
-							<ul class="sniptext">
-								<li>Numerous possible solutions were whiteboarded. The two solutions that met our users' needs the best were further explored. </li>
-								<li>Final solution taken from lo-fi to hi-fi mocks and went through numerous iterations prior to Engineering deliverable</li>
-							</ul>
-						</div>
-						<img src="images/home/bna/wireframesketch.png" alt="research">
-					</div>
-					<div class="featuredworksnip">
-						<div class="snippet">
-							<span class="sniptitle">Iterate</span>
-							<ul class="sniptext">
-								<li>Further product requirements and iterations for Playbooks stemed from key learnings into how Playbooks was being used, additional needs, and edge cases that were previously unaccounted for.</li>
-								<li>Follow-up ethnographic studies and user research sessions were done to gather qualitative data about Playbooks as used by people.</li>
-							</ul>
-						</div>
-						<img src="images/home/bna/iterate.png" alt="research">
-					</div>
-				</div>
-		</div>
+  <div class="portfolio_row">
+    <div class="portfolio_item">
+    <img src="images/pyladiesHome.png" />
+      <div class="details">
+        <div>
+          <p class="project-client">PyLadies</p>
+          <p class="project-platform">Web</p>
+          <p class="project-methods">Sketch (Bohemian Coding), Usability Tests, Iteration</p>
+        </div>
+        <a href="pyladies.html"></a>
+      </div>
+    </div>
+    <div class="portfolio_item">
+    <img src="images/6wlaHome.png" />
+      <div class="details">
+        <div>
+          <p class="project-client">6waves Lolapps</p>
+          <p class="project-platform">Social Game</p>
+          <p class="project-methods">User Research (cross-cultural comparisons, card sort, user interviews, usability studies), Flash (Adobe), Illustrator (Adobe), Photoshop (Adobe), UX Design (wireframing), UI Design (lo-fi mocks, hi-fi mocks), Prototyping, Iteration</p>
+        </div>
+        <a href="6wla.html"></a>
+      </div>
+    </div>
+  </div>
 
-		<div class="item screenshot">
-		  <img src="images/home/bna/playbooks.png" alt="...">
-		</div>
-	  </div>
-
-	  <!-- Controls -->
-	  <a class="left carousel-control" href="#carousel-bna" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left"></span>
-	  </a>
-	  <a id="bna-close" class="right carousel-control closebtn">
-	  	<span class="glyphicon glyphicon-remove"></span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel-bna" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right"></span>
-	  </a>
-	</div>
-	<!-- End BNA Carousel -->
+  <div class="portfolio_row">
+    <div class="portfolio_item">
+    <img src="images/bizeebeeHome.png" />
+      <div class="details">
+        <div>
+          <p class="project-client">BizeeBee</p>
+          <p class="project-platform">Web | Responsive Web</p>
+          <p class="project-methods">User Research (card sort, user interviews, usability studies, shadowing), Illustrator (Adobe), Photoshop (Adobe), UX Design (wireframing), UI Design (lo-fi mocks, hi-fi mocks), Iteration</p>
+        </div>
+        <a href="bizeebee.html"></a>
+      </div>
+    </div>
+    <div class="portfolio_item">
+    <img src="images/gleeboxiconHome.png" />
+      <div class="details">
+        <div>
+          <p class="project-client">Gleebox</p>
+          <p class="project-platform">Icon</p>
+          <p class="project-methods">Illustrator (Adobe), Photoshop (Adobe), Visual Design, Iteration</p>
+        </div>
+        <a href="gleebox-icon.html"></a>
+      </div>
+    </div>
+  </div>
 
 
-	<!-- START CAROUSEL GLEEBOX -->
-	<div id="carousel-gb" class="carousel mycarousel slide" data-ride="carousel">
-	 <div class="carouseltitle"><h3>GLEEBOX | MOBILE</h3></div>
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-		<li data-target="#carousel-gb" data-slide-to="0" class="active"></li>
-		<li data-target="#carousel-gb" data-slide-to="1"></li>
-		<li data-target="#carousel-gb" data-slide-to="2"></li>
-	  </ol>
+</div>
 
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner">
-	  <!-- start of first slide -->
-		<div class="item active container">
-			<div class="row">
-				<div class=" col-md-12">
-					<div class="entireblurb">
-						<span class="blurb-title">BACKGROUND &amp; CHALLENGE</span>
-						<p class="blurb">With Gleebox, there were three challenges:</p>
-							<ul class="blurb">
-								<li>Creating a way to connect people to the local goods around them, and around the world</li>
-								<li>Connecting people to the businesses that sell these goods.</li>
-								<li>We had to consider two types of users: consumers, and small business owners. Given the findings during the research phase and the greater vision for Gleebox, we focused on consumers first.</li>
-							</ul>
-					</div>
-					<div class="entireblurb">
-						<span class="blurb-title">MY ROLE</span>
-						<p class="blurb">I defined the problem, spec'd out features, crafted the UI, and used a combination of qualitative and quantitative data to understand user behavior to optimize the experience, and iterate. I ran a cross-functional team managing engineering to ensure on-time delivery of product, and content marketing to ensure their content was timely and created loops back to the product.</p>
-					</div>
-					<div class="entireblurb">
-						<span class="blurb-title">LEARNINGS &amp; OUTCOME</span>
-						<p class="blurb">Mobile-first was the most optimal approach since it would allow users to upload content quickly, as well as connect with the business directly from the app. As a result, the primary focus was on designing the mobile app, with a supporting web component that connected to the in-app social feature. Based on my learnings, I determined the focus should be on consumers more than business owners.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- start of second slide -->
-		<div class="item">
-		  <div class="col-md-12">
-					<div class="featuredworksnip">
-						<div class="snippet">
-							<span class="sniptitle">Research</span>
-							<ul class="sniptext">
-								<li>Personas: define types of users</li>
-								<li>User Research: understand both sets of needs and problems</li>
-								<li>User Journey Maps: learn mindset of users and Gleebox use</li><li>Prototyping: usability & feedback sessions</li>
-								</ul>
-						</div>
-						<img src="images/home/gb/research.png" alt="research">
-					</div>
-					<div class="featuredworksnip">
-						<div class="snippet">
-							<span class="sniptitle">Wireframes &amp; Sketches</span>
-							<ul class="sniptext">
-								<li>Whiteboarding done for exploration of numerous solutions</li>
-								<li>Validated solution taken from sketches to hi-fi mocks</li>
-								<li>Prototyping of app for user validation and improvement of UX</li>
-							</ul>
-						</div>
-						<img src="images/home/gb/wireframesketch.png" alt="research">
-					</div>
-					<div class="featuredworksnip">
-						<div class="snippet">
-							<span class="sniptitle">Iterate</span>
-							<ul class="sniptext">
-								<li>Based on feedback and user behavior, I designed a feature for v2 to make in-app calls to businesses</li>
-								<li>Improved in-app social share to be more prominent since greater user desire to share</li></ul>
-						</div>
-						<img src="images/home/gb/iterate.png" alt="research">
-					</div>
-				</div>
-		</div>
-		<!-- start of 3rd slide -->
-		<div class="item screenshot">
-		  <img src="images/home/gb/gleebox.png" alt="...">
-		</div>
-	  </div>
+<footer>
+  <ul class="footer">
+    <li>
+      <a href="http://www.twitter.com/samihah" target="_blank"><i class="fa fa-twitter fa-social fa-2x"></i></a>
+    </li>
+    <li>
+      <a href="http://www.linkedin.com/in/samihah-azim" target="_blank"><i class="fa fa-linkedin fa-social fa-2x"></i></a>
+    </li>
+    <li>
+      <a href="http://www.dribbble.com/samihah" target="_blank"><i class="fa fa-dribbble fa-social fa-2x"></i></a>
+    </li>
+    <li>
+      <a href="http://www.instagram.com/samihah" target="_blank"><i class="fa fa-instagram fa-social fa-2x"></i></a>
+    </li>
+  </ul>
+  </nav>
+  <div class="copyright">
+    Designed & coded with <i class="fa fa-heart"></i> by <a href="http://www.twitter.com/samihah" target="_blank">Samihah</a> in San Francisco. &copy; 2015
+  </div>
+</footer>
 
-	  <!-- Controls -->
-	  <a class="left carousel-control" href="#carousel-gb" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left"></span>
-	  </a>
-	  <a id="gb-close" class="right carousel-control closebtn">
-	  	<span class="glyphicon glyphicon-remove"></span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel-gb" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right"></span>
-	  </a>
-	</div> <!-- Carousel -->
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!--   <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>Basic Page</h4>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      </div>
+    </div>
+  </div> -->
 
-
-		<!-- START CAROUSEL 6waves Lolapps -->
-	<div id="carousel-6wla" class="carousel mycarousel slide" data-ride="carousel">
-	 <div class="carouseltitle"><h3>6waves Lolapps | Social Game</h3></div>
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-		<li data-target="#carousel-6wla" data-slide-to="0" class="active"></li>
-		<li data-target="#carousel-6wla" data-slide-to="1"></li>
-		<li data-target="#carousel-6wla" data-slide-to="2"></li>
-	  </ol>
-
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner">
-		<div class="item active container">
-			<div class=" col-md-12">
-					<div class="entireblurb">
-						<span class="blurb-title">BACKGROUND &amp; CHALLENGE</span>
-						<p class="blurb">
-							Ravenshire Castle was part of the Ravenworld games trilogy, which collectively had 4 million Monthly Active Users. The challenges I faced were as follows:
-							<ul class="blurb">
-							<li>Design of UI and UX needed to account for product goals AND user goals.</li>
-							<li>Ensure our three game mechanics reinforced each other without sacrificing user experience.</li>
-							<li>Internationalization: creating experiences that felt localized without changing the spirit of the game.</li>
-							<li>Design an engaging tutorial (onboarding flow) that encourages repeat experiences</li>
-							</ul>
-							</p>
-					</div>
-					<div class="entireblurb">
-						<span class="blurb-title">MY ROLE</span>
-						<p class="blurb">
-							As Lead Product Designer on Ravenshire Castle, I designed UI features to maximize for product goals of retention, monetization, and virality. I crafted UI elements that simplified the user experience for complex systems, created intuitive user flows, and identified and fixed UX flaws in our core game mechanics.
-						</p>
-					</div>
-					<div class="entireblurb">
-						<span class="blurb-title">LEARNINGS &amp; OUTCOME</span>
-						<p class="blurb">A focus only on user goals or only on product goals can be detrimental to game play. The two must go hand in hand. The greates drop-off of users occurs during the tutorial phase. By creating a tutorial that feels like it's part of the product, I was able to keep users engaged with the game, which then kept them coming back.</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="item">
-<div class="col-md-12">
-					<div class="featuredworksnip">
-						<div class="snippet">
-							<span class="sniptitle">Research</span>
-							<ul class="sniptext">
-								<li>Looked at data to see how users were behaving in our other products</li>
-								<li>Usability studies were a key component to constant improvement of UI</li>
-								<li>Studied other products to see how similar challenges were approached</li>
-							</ul>
-						</div>
-						<img src="images/home/6wla/research.png" alt="research">
-					</div>
-					<div class="featuredworksnip">
-						<div class="snippet">
-							<span class="sniptitle">Wireframes &amp; Sketches</span>
-							<ul class="sniptext">
-								<li>Numerous solutions sketched out to each design challenge or problem</li>
-								<li>Solutions validated through design reviews, feedback sessions, and prototype testing</li>
-							</ul>
-						</div>
-						<img src="images/home/6wla/wireframesketch.png" alt="research">
-					</div>
-					<div class="featuredworksnip">
-						<div class="snippet">
-							<span class="sniptitle">Iterate</span>
-							<ul class="sniptext">
-								<li>Iterations occured as soon as I learned about user behavior from usability studies or data</li>
-								<li>Necessary changes were made prior to working with Engineering to hook up the functionality. </ul>
-						</div>
-						<img src="images/home/6wla/iterate.png" alt="research">
-					</div>
-				</div>
-		</div>
-
-		<div class="item screenshot">
-		  <img src="images/home/6wla/ravenshire.png" alt="...">
-		</div>
-	  </div>
-
-	  <!-- Controls -->
-	  <a class="left carousel-control" href="#carousel-6wla" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left"></span>
-	  </a>
-	  <a id="6wla-close" class="right carousel-control closebtn">
-	  	<span class="glyphicon glyphicon-remove"></span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel-6wla" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right"></span>
-	  </a>
-	</div> <!-- Carousel -->
-
-
-
-	<div class="row subfoot">
-		<div class="col-md-6 col-md-offset-3">
-		<blockquote><p>Maybe you are searching among the branches for what only appears in the roots.</p></blockquote>
-			<p class="author" dir='rtl'
-lang='ar'> جلال الدین محمد رومي‎</p> <p class="author">(Rumi)</p>
-		</div>
-	</div>
-
-	<footer>
-		<span>Designed and coded with <i class="fa fa-heart"></i> by <a href="http://www.twitter.com/samihah" target="_blank">Samihah</a> in San Francisco. &copy; 2015</span>
-	</footer>
-
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-
 </html>
