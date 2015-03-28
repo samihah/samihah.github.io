@@ -17,21 +17,9 @@ nav {
 	padding-right: 10px;
 }
 
-.samihah a {
-	text-decoration: none;
-	color: #ED1C24;
-	font-weight: 300;
-}
-
-nav .samihah {
-	font-size: 36px;
-	color: #ED1C24;
-	padding-left: 15px;
-}
-
-nav .pronounce {
-	color: #c9c9c9;
-	font-weight: 600;
+.samihah img {
+	width: 80%;
+	height: auto;
 }
 
 .menu ul {
