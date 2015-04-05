@@ -315,11 +315,6 @@ input:focus, textarea:focus {
 	color: #444444;
 }
 
-.field input:focus, textarea:focus {
-	box-shadow: 0 0 5px #0CA1CE;
-	border: 1px solid #0CA1CE;
-}
-
 textarea {
 	height: 200px;
 	resize: none;
