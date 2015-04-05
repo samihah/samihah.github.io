@@ -185,13 +185,13 @@ nav {
 	font-size: 13px;
 	color: #c9c9c9;
 	line-height: 30px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .project-blurb {
 	font-size: 15px;
 	line-height: 40px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	pading-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
