@@ -234,22 +234,6 @@ p.project-blurb {
 	text-align: center;
 }
 
-.upcomingevent a:link {
-	color: #0CA1CE;
-	font-size: 15px;
-	font-family: 'Open Sans' sans-serif;
-	font-weight: 600;
-	text-align: center;
-}
-
-.upcomingevent a:hover {
-	color: #c9c9c9;
-	font-size: 15px;
-	font-family: 'Open Sans' sans-serif;
-	font-weight: 600;
-	text-align: center;
-}
-
 div.section-title {
 	margin-left: 0;
 }
