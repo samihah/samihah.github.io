@@ -1,11 +1,34 @@
 /*NAVIGATION STYLING GOES HERE*/
 
+nav .navmenu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .navmenu {
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .navmenu {
+    flex-direction: column;
+  }
+}
+
+
+
 nav {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	line-height: 50px;
 	height: 80px;
 	padding-top: 25px;
+	padding-bottom: 5px;
 }
 
 .logo {
@@ -71,12 +94,20 @@ nav {
 
 /*START PORTFOLIO PAGE STYLING*/
 
+.content {
+	min-width: 320px;
+}
+
+img .homeimg {
+	min-width: 320px;
+}
+
 .portfolio_row {
 	display: flex;
 }
 .portfolio_item {
 	position: relative;
-	flex: 1;
+	flex: 2;
 }
 .portfolio_item img {
 	width: 100%;
