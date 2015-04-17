@@ -102,6 +102,10 @@ img .homeimg {
 	min-width: 320px;
 }
 
+.fa-chevron {
+	padding-left:100px;
+}
+
 .portfolio_row {
 	display: flex;
 }
