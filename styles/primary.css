@@ -7,15 +7,11 @@ html, body{
     padding: 0;
 }
 
-@font-face{
-	font-family: "AlegreyaSans-Light";src: url(/fonts/AlegreyaSans-Light.ttf);
-	font-family: "AlegreyaSans-Medium";src: url(/fonts/AlegreyaSans-Medium.ttf);
-	font-family: "Alegreya-Regular";src: url(/fonts/Alegreya-Regular.ttf);
-}
 
 body{
 	background-color: #ffffff;
-	color: #353F49;
+	color: #2A2A36;
+	font-family: "Alegreya Sans";
 	-webkit-font-smoothing: antialiased;
 }
 
