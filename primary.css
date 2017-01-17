@@ -261,8 +261,7 @@ input:focus, textarea:focus {
 	}
 
 	.menu-item{
-		margin-top: 1%;
-		position: fixed;
+		position: relative;
 		max-width: 5%;
 	}
 
