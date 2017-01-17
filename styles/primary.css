@@ -260,12 +260,6 @@ input:focus, textarea:focus {
 		max-width: 10%;
 	}
 
-	.menu-item{
-		margin-top: 10%;
-		position: fixed;
-		max-width: 10%;
-	}
-
 	#intro{
 		font-family: "AlegreyaSans-Light", sans-serif;
 	    line-height: 1em;
