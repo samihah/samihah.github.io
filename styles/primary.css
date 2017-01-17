@@ -47,7 +47,8 @@ body{
 }
 
 .menu{
-	font-family: "AlegreyaSans-Light";
+	font-family: "Alegreya Sans";
+	font-weight: 300;
 	line-height: 1em;
 	font-size: 1.5em;
 	position: relative;
@@ -81,13 +82,15 @@ body{
 }
 
 #greeting{
-	font-family: "AlegreyaSans-Light";
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: 400;
     line-height: 1em;
     margin: 3% 5% 2% 5%;
 }
 
 #projecttitle{
-	font-family: "AlegreyaSans-Light";
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: 400;
 	line-height: 1.4em;
 	margin: 7% 5% 1% 5%;
 }
@@ -106,18 +109,20 @@ body{
 .description {
     margin: 2% 8% 2% 5%;
     line-height: 1.1em;
-    font-family: "AlegreyaSans-Light";
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
     font-size: 1.4em;
 }
 
 h1, h2, p{
+	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: normal;
 	margin:0;
 	padding: 0;
 }
 
 h1{
-	font-family: "AlegreyaSans-Light";
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 2.2em;
 	line-height: 1.4em;
 }
@@ -129,7 +134,8 @@ p{
 	font-size: 1.2em;
 	line-height: 1em;
 	margin: 3% 5% 2% 5%;
-	font-family: "AlegreyaSans-Light";
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: 300;
 }
 
 p a{
@@ -172,7 +178,7 @@ input, textarea {
 	margin: 1% 0%;
 	margin-left: 15%;
 	font-size: 1.1em;
-	font-family: 'AlegreyaSans-Light', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	text-shadow: none;
 	line-height: 1em;
 	
@@ -195,7 +201,7 @@ input:hover, textarea:hover {
 	border-radius: 0px;
 	color: #EE1931;
 	font-size: 1.1em;
-	font-family: 'AlegreyaSans-Light', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	line-height: 1em;
 }
 
@@ -208,7 +214,7 @@ input:focus, textarea:focus {
 	border-radius: 0px;
 	color: #2A2A36;
 	font-size: 1.1em;
-	font-family: 'AlegreyaSans-Light', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	line-height: 1em;
 }
 
@@ -218,7 +224,7 @@ input:focus, textarea:focus {
 	color: #ffffff;
 	background-color: #EE1931;
 	border-color: #EE1931;
-	font-family: 'AlegreyaSans-Light', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	border-radius: 2px;
     transition: border 0.5s, color 0.5s, background-color 0.5s;
     margin-top: 10px;
@@ -230,7 +236,7 @@ input:focus, textarea:focus {
 }
 
 #submit:hover {
-	font-family: 'AlegreyaSans-Light', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	color: #2A2A36;
 	background-color: #F45D6D;
 	border-color: #EE1931;
