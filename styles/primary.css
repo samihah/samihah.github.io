@@ -42,6 +42,7 @@ body{
 	max-width: 5%;
 }
 
+
 .videoprototype{
 	margin: 4% 5% 4% 15%;
 }
@@ -85,7 +86,7 @@ body{
 	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 400;
     line-height: 1em;
-    margin: 3% 5% 2% 5%;
+    margin: 3% 5% 8% 5%;
 }
 
 #projecttitle{
@@ -102,12 +103,13 @@ body{
 	padding:0;
 }
 
+
 .work img{
 	max-width: 100%;
 }
 
 .description {
-    margin: 2% 8% 2% 5%;
+    margin: 2% 20% 2% 5%;
     line-height: 1.1em;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 300;
@@ -127,12 +129,18 @@ h1{
 	line-height: 1.4em;
 }
 
+h2{
+	margin-top: 2%;
+	margin-left: 5%;
+	font-family: "Alegreya Sans", sans-serif;
+	font-weight: 500;
+}
 
 }
 
 p{
 	font-size: 1.2em;
-	line-height: 1em;
+	line-height: 1.6em;
 	margin: 3% 5% 2% 5%;
 	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 300;
@@ -152,7 +160,7 @@ a, a:visited{
 }
 
 a:hover {
-    opacity: .87;
+    opacity: .5;
 }
 
 .cursor{
@@ -239,7 +247,7 @@ input:focus, textarea:focus {
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #2A2A36;
 	background-color: #F45D6D;
-	border-color: #EE1931;
+	border-color: #F45D6D;
 }
 
 /* #Mobile 
@@ -252,8 +260,8 @@ input:focus, textarea:focus {
 
 	p{
 		font-size: 1em;
-		margin: 20px 0;
-		font-family: "AlegreyaSans-Light", sans-serif;
+		margin: 2% 0%;
+		font-family: "Alegreya Sans", sans-serif;
 	}
 	#logo img{
 		position: relative;
@@ -263,7 +271,7 @@ input:focus, textarea:focus {
 	}
 
 	#intro{
-		font-family: "AlegreyaSans-Light", sans-serif;
+		font-family: "Alegreya Sans", sans-serif;
 	    line-height: 1em;
 	    margin: 3% 5% 2% 5%;
 	}
