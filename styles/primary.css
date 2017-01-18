@@ -12,6 +12,7 @@ body{
 	background-color: #ffffff;
 	color: #2A2A36;
 	font-family: "Alegreya Sans";
+	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -37,17 +38,21 @@ body{
 
 #logo{
 	position: relative;
-	margin: 7% 5% 15%;
+	margin: 7% 5% 10%;
 	position: fixed;
 	max-width: 5%;
 }
 
 
-.videoprototype{
+.videoprototype {
 	margin: 4% 5% 4% 15%;
 }
 
-.menu{
+strong {
+	font-weight: 500;
+}
+
+.menu {
 	font-family: "Alegreya Sans";
 	font-weight: 300;
 	line-height: 1em;
@@ -81,24 +86,19 @@ body{
 
 }
 
-#greeting{
-	font-family: "Alegreya Sans", sans-serif;
-	font-weight: 400;
-    line-height: 1em;
-    margin: 2% 5% 8% 5%;
-}
 
 #title{
 	font-family: "Alegreya Sans", sans-serif;
-	font-weight: 400;
     line-height: 1em;
-    margin: 2% 5% 8% 5%;
+    font-size: 3.2em;
+    margin: 7% 5% 2% 5%;
+    font-weight: 500;
 }
 
 #projecttitle{
 	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 400;
-	line-height: 1.4em;
+	line-height: 1.1em;
 	margin: 7% 5% 1% 5%;
 }
 
@@ -116,25 +116,22 @@ body{
 
 .description {
     margin: 2% 20% 2% 5%;
-    line-height: 1.1em;
+    line-height: 1.5em;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 300;
     font-size: 1.4em;
 }
 
-h1, h2, p{
-	font-family: 'Alegreya Sans', sans-serif;
-	font-weight: normal;
-}
 
 h1{
 	font-family: "Alegreya Sans", sans-serif;
 	font-size: 2.2em;
-	line-height: 1.4em;
+	line-height: 1.1em;
+	font-weight: 500;
 }
 
 h2{
-	margin-top: 1%;
+	margin-top: 2%;
 	margin-left: 5%;
 	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 500;
@@ -144,7 +141,7 @@ h2{
 
 p{
 	font-size: 1.2em;
-	line-height: 1.6em;
+	line-height: 1em;
 	margin: 3% 6% 2% 5%;
 	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 300;
@@ -179,9 +176,11 @@ a:hover {
 /* Start of styling for form
 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 */
 
+
+
 input, textarea {
 	width: 50%;
-	color: #DFE1E3;
+	color: #2A2A36;
 	background-color: #ffffff;
 	border: none;
 	border-bottom: 1px solid #2A2A36;
@@ -196,8 +195,14 @@ input, textarea {
 	
 }
 
+.placeholder{
+	color: #9797A6;
+
+}
+
+
 textarea {
-	margin-top: 7%;
+	margin-top: 5%;
 	padding-bottom 1%;
 	height: 10%;
 	resize: none;
@@ -206,12 +211,12 @@ textarea {
 
 input:hover, textarea:hover {
 	outline: 0;
+	color: #EE1931;
 	box-shadow: none;
 	border: none;
 	border-bottom: 1px solid #EE1931;
 	background-color: #ffffff;
 	border-radius: 0px;
-	color: #EE1931;
 	font-size: 1.1em;
 	font-family: 'Alegreya Sans', sans-serif;
 	line-height: 1em;
@@ -274,7 +279,7 @@ input:focus, textarea:focus {
 		max-width: 10%;
 	}
 
-	#intro{
+	#title{
 		font-family: "Alegreya Sans", sans-serif;
 	    line-height: 1em;
 	    margin: 3% 5% 2% 5%;
@@ -285,7 +290,7 @@ input:focus, textarea:focus {
 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 */
 
 	@media only screen and (max-width: 320px){
-		#intro{
+		#title{
 			font-size: 0.8em;
 		}
 
