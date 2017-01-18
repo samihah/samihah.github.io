@@ -119,8 +119,6 @@ body{
 h1, h2, p{
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: normal;
-	margin:0;
-	padding: 0;
 }
 
 h1{
@@ -131,7 +129,7 @@ h1{
 
 h2{
 	margin-top: 2%;
-	margin-left: 5%;
+	margin-left: 6%;
 	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 500;
 }
