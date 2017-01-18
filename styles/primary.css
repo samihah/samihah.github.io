@@ -68,7 +68,7 @@ body{
  }
 
  .inactive:hover {
-	opacity: 90%;
+	opacity: 95%;
 	color:  #F1364B;
 	transition: .1s
  }
@@ -147,7 +147,7 @@ p{
 p a{
 	margin: 0;
 	padding: 0;
-	border-bottom: 2px solid rgba(241, 54, 75, 0.4);
+	border-bottom: 1px solid rgba(241, 54, 75, 0.95);
 	display: inline-block;
 }
 
