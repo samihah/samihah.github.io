@@ -269,12 +269,12 @@ input:focus, textarea:focus {
 
 	p{
 		font-size: 1em;
-		margin: 2% 0%;
+		margin: 1% 0%;
 		font-family: "Alegreya Sans", sans-serif;
 	}
 	#logo img{
 		position: relative;
-		margin-top: 10%;
+		margin-top: 5%;
 		position: fixed;
 		max-width: 10%;
 	}
@@ -282,7 +282,7 @@ input:focus, textarea:focus {
 	#title{
 		font-family: "Alegreya Sans", sans-serif;
 	    line-height: 1em;
-	    margin: 3% 5% 2% 5%;
+	    margin: 5% 5% 2% 3%;
 	}
 }
 
