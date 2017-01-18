@@ -68,7 +68,6 @@ body{
  }
 
  .inactive:hover {
-	opacity: 95%;
 	color:  #F1364B;
 	transition: .1s
  }
