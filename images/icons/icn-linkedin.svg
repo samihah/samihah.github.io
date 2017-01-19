@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="5.5" width="4" height="9"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="4" height="9" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M9.9268453,9.12741354 C9.9268453,9.886442 9.9268453,14.5067281 9.9268453,14.5067281 L6.5,14.5067281 C6.5,14.5067281 6.5,10.5985771 6.5,9.0653491 C6.5,7.53212109 7.14554419,5.25305176 9.9268453,5.25305176 C11.9272012,5.25305176 12.3362893,6.00538379 12.3362893,6.00538379 L12.5169676,6.00538379 L12.5169676,5.49833325 L15,5.49833325 L15,8.63379193 L15,14.5067281 L11.9272012,14.5067281 C11.9272012,14.5067281 11.9272012,9.85359589 11.9272012,9.11099048 C11.9272012,8.36838508 11.5275442,8.36406426 11.0012614,8.36838508 C10.4749786,8.37270589 9.9268453,8.36838508 9.9268453,9.12741354 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8.5" height="9.25367635" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="me" transform="translate(-17.000000, -639.000000)">
+            <g id="icn-linkedin" transform="translate(16.000000, 639.000000)">
+                <rect id="bg" x="0" y="0" width="16" height="16"></rect>
+                <use id="Rectangle-2" stroke="#2A2A36" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                <circle id="Oval-3" stroke="#2A2A36" stroke-width="0.5" cx="4" cy="3" r="2"></circle>
+                <use id="Rectangle-2-Copy" stroke="#2A2A36" mask="url(#mask-4)" transform="translate(10.750000, 9.879890) scale(-1, 1) translate(-10.750000, -9.879890) " xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

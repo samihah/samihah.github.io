@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-instagram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="13" height="13" rx="1.92592593"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="13" height="13" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="9.14814815" y="1.44444444" width="2.40740741" height="2.40740741" rx="0.481481481"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="2.40740741" height="2.40740741" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M2.64814815,5.05882513 L2.64814815,3.12962963 L6.61316174,3.12962963 L8.43222983,3.12962963 C9.22649292,3.12962963 9.87037037,3.77629839 9.87037037,4.58027415 L9.87037037,12.2715777 C9.87037037,13.0727465 9.22944633,13.7222222 8.42620399,13.7222222 L2.64814815,13.7222222 L2.64814815,11.3265986" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.22222222" height="10.5925926" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="me" transform="translate(-172.000000, -641.000000)">
+            <g id="icn-instagram" transform="translate(170.000000, 639.000000)">
+                <rect id="bg" x="0" y="0" width="16" height="16"></rect>
+                <g id="Group-3" transform="translate(2.000000, 2.000000)" stroke="#2A2A36">
+                    <use id="Rectangle" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    <use id="Rectangle-Copy" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                    <use id="Rectangle-Copy-2" mask="url(#mask-6)" transform="translate(6.259259, 8.425926) rotate(-270.000000) translate(-6.259259, -8.425926) " xlink:href="#path-5"></use>
+                    <circle id="Oval-2" stroke-width="0.5" cx="6.5" cy="6.98148148" r="3.61111111"></circle>
+                    <circle id="Oval-2-Copy" stroke-width="0.5" cx="6.5" cy="6.98148148" r="2.16666667"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
