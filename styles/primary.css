@@ -72,6 +72,15 @@ strong {
  	  float: left;
  }
 
+ul .social {
+	display: inline-flex;
+	margin-left: 5%;
+}
+
+li .social {
+	margin-left: 2%;
+}
+
  .inactive:hover {
 	color:  #F1364B;
 	transition: .1s
