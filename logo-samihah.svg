@@ -7,9 +7,9 @@
     <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="logo-samihah">
             <g id="Group" transform="translate(28.000000, 6.000000)">
-                <path d="M32,64 C32,64 32,1.90239033 32,0.385752475 C32,-1.13088538 -1.76216609,0.385752475 0.0721242779,32.1928762 C1.90641465,64 32,64 32,64 Z" id="Oval" fill="#2A2A36"></path>
-                <path d="M64,109 C64,109 64,46.9023903 64,45.3857525 C64,43.8691146 30.2378339,45.3857525 32.0721243,77.1928762 C33.9064146,109 64,109 64,109 Z" id="Oval-Copy-2" fill="#EE1931" transform="translate(48.000000, 77.000000) rotate(-180.000000) translate(-48.000000, -77.000000) "></path>
-                <circle id="Oval-2-Copy" fill="#EE1931" cx="43" cy="7" r="7"></circle>
+                <path d="M63,109 C63,109 63,46.9023903 63,45.3857525 C63,43.8691146 29.2378339,45.3857525 31.0721243,77.1928762 C32.9064146,109 63,109 63,109 Z" id="Oval-Copy-2" fill="#DDDDE7" transform="translate(47.000000, 77.000000) rotate(-180.000000) translate(-47.000000, -77.000000) "></path>
+                <circle id="Oval-2-Copy" fill="#2A2A36" cx="43" cy="7" r="7"></circle>
+                <path d="M32,64 C32,64 32,1.90239033 32,0.385752475 C32,-1.13088538 -1.76216609,0.385752475 0.0721242779,32.1928762 C1.90641465,64 32,64 32,64 Z" id="Oval" fill="#DCDCE7"></path>
                 <circle id="Oval-2-Copy-2" fill="#2A2A36" cx="21" cy="102" r="7"></circle>
             </g>
         </g>
