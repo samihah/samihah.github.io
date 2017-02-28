@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="130px" height="130px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>logo-samihah copy</title>
+    <title>logo-samihah</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="logo-samihah-copy">
-            <g id="Group" transform="translate(32.000000, 6.000000)">
-                <path d="M68,117 C68,117 68,46.169914 68,44.4399989 C68,42.7100839 30.0175631,44.4399989 32.0811398,80.7199995 C34.1447165,117 68,117 68,117 Z" id="Oval-Copy" fill="#EE1931" transform="translate(50.000000, 80.500000) rotate(-180.000000) translate(-50.000000, -80.500000) "></path>
-                <circle id="Oval-2" fill="#2A2A36" cx="20.5" cy="108.5" r="8.5"></circle>
-                <path d="M32,64 C32,64 32,1.90239033 32,0.385752475 C32,-1.13088538 -1.76216609,0.385752475 0.0721242779,32.1928762 C1.90641465,64 32,64 32,64 Z" id="Oval" fill="#2A2A36"></path>
-                <circle id="Oval-2-Copy" fill="#EE1931" cx="42" cy="7" r="7"></circle>
+        <g id="logo-samihah">
+            <g id="Group" transform="translate(28.000000, 6.000000)">
+                <path d="M63,109 C63,109 63,46.9023903 63,45.3857525 C63,43.8691146 29.2378339,45.3857525 31.0721243,77.1928762 C32.9064146,109 63,109 63,109 Z" id="Oval-Copy-2" fill="#DDDDE7" transform="translate(47.000000, 77.000000) rotate(-180.000000) translate(-47.000000, -77.000000) "></path>
+                <circle id="Oval-2-Copy" fill="#2A2A36" cx="43" cy="7" r="7"></circle>
+                <path d="M32,64 C32,64 32,1.90239033 32,0.385752475 C32,-1.13088538 -1.76216609,0.385752475 0.0721242779,32.1928762 C1.90641465,64 32,64 32,64 Z" id="Oval" fill="#DCDCE7"></path>
+                <circle id="Oval-2-Copy-2" fill="#2A2A36" cx="21" cy="102" r="7"></circle>
             </g>
         </g>
     </g>
